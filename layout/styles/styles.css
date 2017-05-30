@@ -1,0 +1,103 @@
+a{
+    color: wheat;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+
+.row1{
+    color: wheat;
+    background-color: black;
+    border-bottom: solid 5px wheat;
+}
+
+img{
+    padding-bottom: 30px;
+    width: 300px;
+    height: auto;
+
+}
+
+.row1 a:hover{
+    color: #CE990D;
+}
+
+#footer input{
+    color: #FFFFFF;
+    background-color: #353535;
+}
+
+#footer textarea{
+    color: #FFFFFF;
+    background-color: #353535;
+    width: 100%;
+    border-color: transparent;
+    padding: 8px;
+}
+
+.row5{
+    color: wheat;
+    background-color: black;
+}
+
+.bgded{
+    background-image: url('/images/whirlpool.png');
+    background-repeat: repeat;
+}
+
+#mainav .active a{
+    color: #CE990D;
+}
+
+#mainav a:hover{
+    color: #CE990D;
+}
+
+#mainav .active a, #mainav a:hover, #mainav li:hover > a {
+    color: #CE990D;
+    background-color: inherit;
+}
+
+.btn{
+    border-color: #CE990D;
+    background-color: #CE990D;
+
+}
+
+.btn, .btn.inverse:hover{
+    border-color: black;
+    background-color: black;
+
+}
+
+#footer button{
+    background: black;
+    color: inherit;
+    border-color: black;
+}
+
+
+.row4 a{
+    color: wheat;
+}
+
+#mainav li li:hover > a, #mainav .active .active > a {
+    color: #FFFFFF;
+     background-color: black;
+}
+
+.flex-control-paging li a {
+    background-color: black;
+    border-color: black;
+}
+
+article {
+    color: rgba(0,0,0,0.8);
+}
+
+#pageintro li article {
+    color: rgba(0,0,0,0.8);
+}
